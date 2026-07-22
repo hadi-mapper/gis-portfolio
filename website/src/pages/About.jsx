@@ -1,3 +1,5 @@
+import Timeline from "../components/Timeline"
+
 function About() {
   return (
     <section className="about">
@@ -48,6 +50,14 @@ function About() {
         </div>
 
       </div>
+
+
+      <h2>
+        Career Journey
+      </h2>
+
+      <Timeline />
+
 
     </section>
   )
