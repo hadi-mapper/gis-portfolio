@@ -1,14 +1,35 @@
-function ProjectCard({ title, description }) {
+function ProjectCard({ title, description, tools }) {
   return (
     <div className="project-card">
 
-      <h3>
-        {title}
-      </h3>
+      <div className="project-image">
+        GIS
+      </div>
 
-      <p>
-        {description}
-      </p>
+
+      <div className="project-content">
+
+        <h3>
+          {title}
+        </h3>
+
+
+        <p>
+          {description}
+        </p>
+
+
+        <div className="tools">
+
+          {tools.map((tool, index) => (
+            <span key={index}>
+              {tool}
+            </span>
+          ))}
+
+        </div>
+
+      </div>
 
     </div>
   )

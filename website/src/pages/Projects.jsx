@@ -1,12 +1,16 @@
 import ProjectCard from "../components/ProjectCard"
 
+
 function Projects() {
+
   return (
+
     <section className="projects">
 
       <h2>
         Projects
       </h2>
+
 
       <p>
         Selected works in mine survey,
@@ -14,48 +18,81 @@ function Projects() {
       </p>
 
 
+
       <div className="project-grid">
 
+
         <ProjectCard
+
           title="Mine Survey & Production Monitoring"
-          description="
-          Topographic survey, volume calculation,
-          progress monitoring, and mining operation support.
-          "
+
+          description="Topographic survey, volume calculation, mine progress monitoring, and operational support."
+
+          tools={[
+            "GNSS RTK",
+            "Total Station",
+            "Surpac"
+          ]}
+
         />
 
 
+
         <ProjectCard
+
           title="Drone Mapping & Photogrammetry"
-          description="
-          UAV mapping, orthomosaic generation,
-          DSM/DTM processing, and stockpile monitoring.
-          "
+
+          description="UAV mapping workflow including orthomosaic, DSM, DTM, and stockpile monitoring."
+
+          tools={[
+            "DJI UAV",
+            "Pix4D",
+            "Photogrammetry"
+          ]}
+
         />
 
 
+
         <ProjectCard
+
           title="Remote Sensing Analysis"
-          description="
-          Sentinel-2 imagery processing,
-          NDVI, BSI, and land cover analysis.
-          "
+
+          description="Satellite imagery processing for land monitoring and environmental analysis."
+
+          tools={[
+            "Sentinel-2",
+            "NDVI",
+            "BSI"
+          ]}
+
         />
+
 
 
         <ProjectCard
+
           title="WebGIS Development"
-          description="
-          Interactive spatial visualization,
-          web mapping, and GIS database.
-          "
+
+          description="Interactive mapping application and spatial data visualization."
+
+          tools={[
+            "React",
+            "Leaflet",
+            "GIS Database"
+          ]}
+
         />
+
 
       </div>
 
 
     </section>
+
   )
+
 }
+
 
 export default Projects
