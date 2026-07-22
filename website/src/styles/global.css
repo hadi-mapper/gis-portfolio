@@ -14,3 +14,36 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #1f2933;
+  color: white;
+}
+
+.logo h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.logo span {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-menu li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-menu li:hover {
+  color: #84cc16;
+}

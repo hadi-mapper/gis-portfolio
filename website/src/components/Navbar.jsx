@@ -1,9 +1,12 @@
 function Navbar() {
   return (
-    <nav>
-      <h2>Hadi Wibowo</h2>
+    <nav className="navbar">
+      <div className="logo">
+        <h2>HADI WIBOWO</h2>
+        <span>GIS PROFESSIONAL</span>
+      </div>
 
-      <ul>
+      <ul className="nav-menu">
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
