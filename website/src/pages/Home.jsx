@@ -1,20 +1,32 @@
 function Home() {
   return (
-    <div>
-      <h1>Hadi Wibowo</h1>
+    <section className="hero">
 
-      <h2>
-        GIS Professional Portfolio
-      </h2>
+      <div className="hero-content">
 
-      <p>
-        Mine Survey | GIS | Drone Mapping | Remote Sensing
-      </p>
+        <p className="subtitle">
+          GIS PROFESSIONAL PORTFOLIO
+        </p>
 
-      <p>
-        Welcome to my spatial journey.
-      </p>
-    </div>
+        <h1>
+          Mapping The Earth,
+          <br />
+          Understanding The Data.
+        </h1>
+
+        <p className="description">
+          Mine Surveyor | GIS Engineer | Drone Pilot
+          <br />
+          Remote Sensing & Spatial Analysis
+        </p>
+
+        <button>
+          Explore My Projects
+        </button>
+
+      </div>
+
+    </section>
   )
 }
 
